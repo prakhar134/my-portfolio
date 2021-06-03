@@ -1,0 +1,83 @@
+.skills {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+
+.skills__icons {
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  width: 100vw;
+  align-items: center;
+}
+
+.skills__row1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+  margin-top: 5.5rem;
+}
+.skills__row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.skill__icon {
+  font-size: xxx-large;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.skill__icon > img {
+  height: 1em;
+  width: 1em;
+}
+
+.skill__icon > img,
+svg:hover {
+  transition: all 0.5s ease;
+  color: #d4b613;
+}
+
+.skills__heading {
+  font-family: "Montserrat";
+  width: 100%;
+  text-align: center;
+}
+.skills__heading > h1 {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+p {
+  font-size: medium;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+@media screen and (max-width: 500px) {
+  .skills {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .skills__heading > h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  .skills__row1 {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .skills__row2 {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  .skill__icon {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

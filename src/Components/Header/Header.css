@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.name {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 75%;
+  margin: auto;
+  align-items: center;
+}
+
+.name > h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-family: "Montserrat";
+
+  animation: fadeInUp 2s;
+}
+
+.line-1 {
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: "Anonymous Pro";
+  font-weight: 300;
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+  /* blinkTextCursor 0.5s steps(44) infinite normal; */
+}
+
+.down__icon {
+  font-size: xx-large;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  bottom: 20px;
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+
+.down__icon:hover {
+  cursor: pointer;
+  color: #d4b613;
+  transition: all 0.5s ease;
+}
+
+.social__media {
+  font-size: xx-large;
+  align-items: center;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+a > svg:hover {
+  cursor: pointer;
+  color: #d4b613;
+  transition: all 0.5s ease;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #d4b613;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name > h1 {
+    font-size: 1.5rem;
+  }
+  .name > p {
+    font-size: 1rem;
+  }
+  .line-1 {
+    margin: 0 0;
+  }
+}

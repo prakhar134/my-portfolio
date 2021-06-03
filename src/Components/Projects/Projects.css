@@ -1,0 +1,166 @@
+.projects {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.projects__heading > h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 3rem;
+}
+
+.projects__cards {
+  margin: 3rem;
+}
+
+.projects__row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: space-between;
+}
+.projects__row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: space-between;
+}
+
+.project__card {
+  max-width: calc(33.33% - 50px);
+  border: 1px solid #ddd;
+  background-color: rgb(239 239 239);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+
+.project__card > img {
+  transition: 0.5s all ease-in-out;
+}
+
+.project__card > img:hover {
+  transform: scale(1.2);
+}
+
+.project__content {
+  padding: 10px;
+  margin-top: -30px;
+  padding-right: 14px;
+}
+
+.project__content > span {
+  font-size: 12px;
+  color: #838383;
+  display: inline-block;
+}
+
+p > a {
+  text-decoration: underline;
+  color: -webkit-link;
+}
+
+.project__content > span:nth-child(2) {
+  border-left: 1px solid rgb(131, 131, 131);
+  padding-left: 8px;
+  margin-left: 10px;
+}
+
+.project__content > span:nth-child(3) {
+  border-left: 1px solid rgb(131, 131, 131);
+  padding-left: 8px;
+  margin-left: 10px;
+}
+
+.project__content > p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.project__content__heading {
+  display: flex;
+  align-items: center;
+}
+.project__content__heading > a {
+  margin-left: 20px;
+  margin-top: 8px;
+  font-size: larger;
+}
+
+.project__content__heading > h1 {
+  margin: 0;
+}
+
+.toastifier__btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.toastifier__btn > button {
+  color: white;
+  background-color: #6695ff;
+  padding: 5px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+.toastifier__btn > button:hover {
+  cursor: pointer;
+}
+
+.toastifier__btn > select:hover {
+  cursor: pointer;
+}
+
+.toastifier__btn > select {
+  color: white;
+  background-color: #6695ff;
+  border: none;
+  margin-left: 10px;
+}
+
+.work__experience__card {
+  margin: 3rem;
+}
+
+.internship__projects__heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+.internship__projects__heading > h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .projects__heading > h1 {
+    font-size: 2.5rem;
+  }
+  .projects__cards {
+    margin: 0;
+  }
+  .project__card {
+    max-width: calc(100%);
+    margin-bottom: 20px;
+  }
+  .projects__row1 {
+    margin: 1rem;
+  }
+  .projects__row2 {
+    margin: 1rem;
+  }
+  .internship__projects__heading > h1 {
+    font-size: 2.5rem;
+  }
+  .work__experience__card {
+    margin: 0;
+  }
+}
