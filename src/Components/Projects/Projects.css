@@ -77,6 +77,7 @@ p > a {
 .project__content > p {
   text-align: left;
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .project__content__heading {
@@ -91,6 +92,7 @@ p > a {
 
 .project__content__heading > h1 {
   margin: 0;
+  margin-top: 5px;
 }
 
 .toastifier__btn {
@@ -134,6 +136,28 @@ p > a {
 }
 .internship__projects__heading > h1 {
   font-size: 3rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .projects {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .project__card {
+    max-width: calc(100%);
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .project__card {
+    max-width: calc(100%);
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 500px) {

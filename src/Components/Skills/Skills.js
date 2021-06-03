@@ -8,6 +8,7 @@ import {
   FaGitAlt,
   FaJava,
   FaPython,
+  FaFire,
 } from "react-icons/fa";
 import { DiDjango, DiMysql } from "react-icons/di";
 import "./Skills.css";
@@ -68,6 +69,10 @@ const Skills = () => {
         <div className="skill__icon">
           <img src={flask_img} alt="flask_img" />
           <p>Flask</p>
+        </div>
+        <div className="skill__icon">
+          <FaFire />
+          <p>Firebase</p>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import photo_gallery_img from "../../images/photo-gallery.svg";
 import clean_or_messy_img from "../../images/clean-or-messy.svg";
 import e_commerce_img from "../../images/e-commerce1.svg";
 import e_commerce_img2 from "../../images/e-commerce2.svg";
+import npm_img from "../../images/npm2.svg";
 import toastifier from "toastifier";
 import "toastifier/dist/toastifier.min.css";
 import { FaLink, FaGithub } from "react-icons/fa";
@@ -47,7 +48,7 @@ const Projects = () => {
           </div>
 
           <div className="project__card">
-            <img src={photo_gallery_img} alt="project_image" />
+            <img src={npm_img} alt="project_image" />
             <div className="project__content">
               <span>April 2021</span>
               <span>NPM Package</span>

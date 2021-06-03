@@ -17,8 +17,7 @@
   margin-bottom: 1rem;
   margin-top: 0;
   font-family: "Montserrat";
-
-  animation: fadeInUp 2s;
+  animation: fadeInUp 2.5s;
 }
 
 .line-1 {
@@ -36,8 +35,8 @@
 }
 
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both;
-  /* blinkTextCursor 0.5s steps(44) infinite normal; */
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(44) infinite normal;
 }
 
 .down__icon {
@@ -53,7 +52,7 @@
 
 .down__icon:hover {
   cursor: pointer;
-  color: #d4b613;
+  color: #6695ff;
   transition: all 0.5s ease;
 }
 
@@ -65,6 +64,7 @@
   justify-content: space-between;
   margin-bottom: 50px;
   margin-top: 30px;
+  animation: fadeInUp 2.5s;
 }
 
 a,
@@ -76,7 +76,8 @@ a:hover {
 
 a > svg:hover {
   cursor: pointer;
-  color: #d4b613;
+  /* color: #d4b613; */
+  color: #6695ff;
   transition: all 0.5s ease;
 }
 
@@ -85,12 +86,12 @@ a > svg:hover {
     width: 0;
   }
   to {
-    width: 24em;
+    width: 13em;
   }
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: #d4b613;
+    border-right-color: #6695ff;
   }
   to {
     border-right-color: transparent;
@@ -123,9 +124,27 @@ a > svg:hover {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .name > h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name > h1 {
+    font-size: 3rem;
+  }
+  .name > p {
+    font-size: 1.8rem;
+  }
+  .line-1 {
+    margin: 0 0;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .name > h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .name > p {
     font-size: 1rem;

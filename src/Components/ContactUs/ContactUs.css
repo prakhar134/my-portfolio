@@ -36,6 +36,7 @@ textarea {
 
 .form__btn {
   text-align: center;
+  margin-left: 10%;
 }
 
 .form__btn > button {
@@ -59,6 +60,33 @@ textarea {
 
 .copyright > p {
   margin-left: 5px;
+}
+
+@media screen and (max-width: 1100px), (max-width: 768px) {
+  .contactUs {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contactUs__card {
+    flex-direction: column;
+  }
+  .contact__form {
+    width: 92%;
+  }
+  .form__btn {
+    margin-left: 10%;
+  }
+  .social__media {
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .social__media > a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .copyright {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 500px) {
