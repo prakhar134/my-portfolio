@@ -15,7 +15,7 @@ const Blogs = () => {
       <div className="blogposts">
         <a href="https://medium.com/deepklarity/building-a-reactjs-front-end-to-interact-with-a-machine-learning-model-104b4fc8904d">
           <div className="blog__card">
-            <img src={reactjsfrontend_img} />
+            <img src={reactjsfrontend_img} alt="reactjsfrontend" />
             <div className="blog__content">
               <span>Oct 8, 2020</span>
               <span>Frontend</span>
@@ -28,7 +28,7 @@ const Blogs = () => {
         </a>
         <a href="https://medium.com/deepklarity/building-a-rest-api-using-flask-to-deploy-a-machine-learning-model-on-a-back-end-server-a9645dbc8b6f">
           <div className="blog__card">
-            <img src={restapi_img} />
+            <img src={restapi_img} alt="restapi" />
             <div className="blog__content">
               <span>Oct 8, 2020</span>
               <span>REST API</span>
@@ -42,7 +42,7 @@ const Blogs = () => {
 
         <a href="https://medium.com/deepklarity/training-an-ml-classifier-model-fa346a51a31a">
           <div className="blog__card">
-            <img src={trainML_img} />
+            <img src={trainML_img} alt="trainML" />
             <div className="blog__content">
               <span>Oct 8, 2020</span>
               <span>Machine Learning</span>
@@ -52,7 +52,7 @@ const Blogs = () => {
         </a>
         <a href="https://medium.com/deepklarity/clean-or-messy-classifier-f7d81757be27">
           <div className="blog__card">
-            <img src={cleanormessy_img} />
+            <img src={cleanormessy_img} alt="cleanormessy" />
             <div className="blog__content">
               <span>Oct 8, 2020</span>
               <span>Web Application</span>

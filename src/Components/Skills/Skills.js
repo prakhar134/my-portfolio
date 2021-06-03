@@ -66,7 +66,7 @@ const Skills = () => {
           <p>MySql</p>
         </div>
         <div className="skill__icon">
-          <img src={flask_img} />
+          <img src={flask_img} alt="flask_img" />
           <p>Flask</p>
         </div>
       </div>

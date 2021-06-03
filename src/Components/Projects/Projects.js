@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="projects__cards">
         <div className="projects__row1">
           <div className="project__card">
-            <img src={vovoca_img} />
+            <img src={vovoca_img} alt="project_image" />
             <div className="project__content">
               <span>April 2021</span>
               <span>Web Application</span>
@@ -47,7 +47,7 @@ const Projects = () => {
           </div>
 
           <div className="project__card">
-            <img src={photo_gallery_img} />
+            <img src={photo_gallery_img} alt="project_image" />
             <div className="project__content">
               <span>April 2021</span>
               <span>NPM Package</span>
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="project__card">
-            <img src={photo_gallery_img} />
+            <img src={photo_gallery_img} alt="project_image" />
             <div className="project__content">
               <span>May 2021</span>
               <span>Web Application</span>
@@ -135,7 +135,7 @@ const Projects = () => {
         </div>
         <div className="projects__row2">
           <div className="project__card">
-            <img src={e_commerce_img} />
+            <img src={e_commerce_img} alt="project_image" />
             <div className="project__content">
               <span>May 2021</span>
               <span>Web Application</span>
@@ -159,7 +159,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="project__card">
-            <img src={e_commerce_img2} />
+            <img src={e_commerce_img2} alt="project_image" />
             <div className="project__content">
               <span>Feb 2021</span>
               <span>Web Application</span>
@@ -192,7 +192,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="project__card">
-            <img src={clean_or_messy_img} />
+            <img src={clean_or_messy_img} alt="project_image" />
             <div className="project__content">
               <span>September 2020</span>
               <span>Web Application</span>
