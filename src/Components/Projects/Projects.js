@@ -142,15 +142,15 @@ const Projects = () => {
               <span>Web Application</span>
               <span>Internship Project</span>
               <div className="project__content__heading">
-                <h1>E-Commerce</h1>
+                <h1>Clever Canine</h1>
                 <a href="https://clevercanine.in/">
                   <FaLink />
                 </a>
               </div>
 
               <p>
-                <a href="https://clevercanine.in/">Clever Canine</a> is an
-                online store with all the delicious foods for your lovely pet.
+                Clever Canine is an online store with all the delicious foods
+                for your lovely pet.
               </p>
               <ul>
                 <li>Features Enhancement.</li>
@@ -166,14 +166,14 @@ const Projects = () => {
               <span>Web Application</span>
               <span>Internship Project</span>
               <div className="project__content__heading">
-                <h1>E-Commerce</h1>
+                <h1>USayPet</h1>
                 <a href="https://usaypet.com/">
                   <FaLink />
                 </a>
               </div>
               <p>
-                <a href="https://usaypet.com/">USayPet</a> is an online store to
-                buy cool and trending accessories for your pets.
+                USayPet is an online store to buy cool and trending accessories
+                for your pets.
               </p>
               <ul>
                 <li>

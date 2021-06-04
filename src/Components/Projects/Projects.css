@@ -31,7 +31,7 @@
 .project__card {
   max-width: calc(33.33% - 50px);
   border: 1px solid #ddd;
-  background-color: rgb(239 239 239);
+  background-color: rgb(245 245 245);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   overflow: hidden;
@@ -145,6 +145,7 @@ p > a {
   }
   .project__card {
     max-width: calc(100%);
+    width: 100%;
     margin-bottom: 30px;
   }
 }

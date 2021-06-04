@@ -39,7 +39,7 @@
 .blog__card:hover {
   transform: translateY(-5px);
   border: 1px solid #ddd;
-  background-color: rgb(239 239 239);
+  background-color: rgb(245 245 245);
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   cursor: pointer;
 }
@@ -50,6 +50,7 @@
 
 .blog__content > h3 {
   text-align: left;
+  color: #414141;
 }
 .blog__content > span:nth-child(2) {
   border-left: 1px solid rgb(131, 131, 131);

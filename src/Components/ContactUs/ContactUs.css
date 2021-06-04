@@ -32,6 +32,7 @@ textarea {
   outline: none;
   border-radius: 5px;
   min-height: 70px;
+  resize: none;
 }
 
 .form__btn {
