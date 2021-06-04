@@ -61,43 +61,6 @@ const Blogs = () => {
           </div>
         </a>
       </div>
-
-      {/* <div className="blogposts">
-        <a href="https://medium.com/deepklarity/building-a-reactjs-front-end-to-interact-with-a-machine-learning-model-104b4fc8904d">
-          <div className="row">
-            <FaMedium />
-
-            <p>
-              Building a Reactjs front-end to interact with a Machine Learning
-              model
-            </p>
-          </div>
-        </a>
-        <a href="https://medium.com/deepklarity/building-a-rest-api-using-flask-to-deploy-a-machine-learning-model-on-a-back-end-server-a9645dbc8b6f">
-          <div className="row">
-            <FaMedium />
-
-            <p>
-              Building a REST API using Flask to deploy a Machine Learning Model
-              on a back-end server
-            </p>
-          </div>
-        </a>
-        <a href="https://medium.com/deepklarity/training-an-ml-classifier-model-fa346a51a31a">
-          <div className="row">
-            <FaMedium />
-
-            <p>Training an ML classifier model</p>
-          </div>
-        </a>
-        <a href="https://medium.com/deepklarity/clean-or-messy-classifier-f7d81757be27">
-          <div className="row">
-            <FaMedium />
-
-            <p>Clean or Messy Classifier</p>
-          </div>
-        </a>
-      </div> */}
     </div>
   );
 };

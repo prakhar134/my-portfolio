@@ -5,7 +5,7 @@ import photo_gallery_img from "../../images/photo-gallery.svg";
 import clean_or_messy_img from "../../images/clean-or-messy.svg";
 import e_commerce_img from "../../images/e-commerce1.svg";
 import e_commerce_img2 from "../../images/e-commerce2.svg";
-import npm_img from "../../images/npm2.svg";
+import npm_img from "../../images/npm3.svg";
 import toastifier from "toastifier";
 import "toastifier/dist/toastifier.min.css";
 import { FaLink, FaGithub } from "react-icons/fa";

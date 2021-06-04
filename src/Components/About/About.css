@@ -17,12 +17,19 @@
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
+.about__card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about__card__content > h1 {
   font-family: "Montserrat";
   margin-bottom: 0;
   margin-top: 0;
+  color: #6695ff;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 1.8rem;
 }
 
 .about__heading {
@@ -38,17 +45,19 @@
   min-width: 300px;
 }
 .about__content {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
+  padding: 20px;
 }
 
 .about__content > h3 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   margin-bottom: 0;
+  font-weight: 400;
 }
 .about__content > p {
-  text-align: justify;
-  font-weight: 500;
+  text-align: center;
+  font-weight: 100;
   font-size: 1.2rem;
   margin-top: 0;
 }

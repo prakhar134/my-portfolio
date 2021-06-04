@@ -38,7 +38,6 @@
 
 .blog__card:hover {
   transform: translateY(-5px);
-  border: 1px solid #ddd;
   background-color: rgb(245 245 245);
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   cursor: pointer;

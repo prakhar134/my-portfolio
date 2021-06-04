@@ -34,16 +34,21 @@
   background-color: rgb(245 245 245);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.5s all ease-in-out;
   overflow: hidden;
 }
 
-.project__card > img {
+.project__card:hover {
+  transform: translateY(-5px);
+}
+
+/* .project__card > img {
   transition: 0.5s all ease-in-out;
 }
 
 .project__card > img:hover {
   transform: scale(1.2);
-}
+} */
 
 .project__content {
   padding: 10px;
