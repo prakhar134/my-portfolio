@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaMedium,
 } from "react-icons/fa";
-import ParticleBackground from "../../ParticleBackground";
 import "./Header.css";
 
 const Header = () => {
